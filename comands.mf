@@ -1,0 +1,23 @@
+# Packages
+
+django
+python-dotenv==1.0.0
+djangorestframework==3.14.0
+pytest==7.2.1
+pytest-django==4.5.2
+
+# Commands
+
+django-admin.py startproject config .
+python manage.py runserver -> drf
+
+## Pytest
+
+pytest -> run all tests
+pytest -k 'test_name' -> run specific test
+pytest -h -> help
+
+## in python shell
+python manage.py shell
+from django.core.management.utils import get_random_secret_key
+print(get_random_secret_key()) -> copy add to settings.py SECRET_KEY

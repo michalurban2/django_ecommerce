@@ -1,10 +1,12 @@
-.idea
+venv/
+.pytest_cache
+**__pycache__/
+db.sqlite3
+.env
+.coverage
 .vscode
-
-venv
+.idea
 
 **/*.pyc
 
-db.sqlite3
 DS_Store
-
