@@ -29,3 +29,9 @@ pytest -h -> help
 python manage.py shell
 from django.core.management.utils import get_random_secret_key
 print(get_random_secret_key()) -> copy add to settings.py SECRET_KEY
+
+
+pip install python-dotenv
+pip install pytest
+pip install djangorestframework
+pip install pytest-django
