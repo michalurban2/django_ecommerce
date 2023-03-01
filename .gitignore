@@ -6,7 +6,8 @@ db.sqlite3
 .coverage
 .vscode
 .idea
-
+schema.yml
+htmlcov/
 **/*.pyc
 
 DS_Store

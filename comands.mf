@@ -5,11 +5,19 @@ python-dotenv==1.0.0
 djangorestframework==3.14.0
 pytest==7.2.1
 pytest-django==4.5.2
+django-mptt==0.14.0
+drf-spectacular==0.25.1
+
 
 # Commands
 
 django-admin.py startproject config .
 python manage.py runserver -> drf
+
+python manage.py spectacular --file schema.yml
+coverage run -m pytest
+coverage html
+
 
 ## Pytest
 
